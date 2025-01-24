@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Portfolio | Aniket</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="professional-header">
+                    <h4 class="hero-subtitle">
+                        <i class="fas fa-map-marker-alt"></i> Berlin, Germany 
+                        <span class="divider">|</span> 
+                        M.Sc. Data Science @ RWTH Aachen
+                    </h4>
+                    <h1 class="hero-title">
+                        Aniket Phutane
+                        <span class="title-highlight">Data Scientist</span>
+                    </h1>
+                </div>
+    
+                <div class="expertise-highlights">
+                    <div class="expertise-column">
+                        <div class="expertise-item">
+                            <i class="fas fa-cogs accent-icon"></i>
+                            <div>
+                                <h3>Current Focus</h3>
+                                <p>Synthetic Data Generation & Time Series Forecasting<br>
+                                <span class="tech-stack">PyTorch • Probabilistic Methods • MLOps</span></p>
+                            </div>
+                        </div>
+                        
+                        <div class="expertise-item">
+                            <i class="fas fa-industry accent-icon"></i>
+                            <div>
+                                <h3>Industry Experience</h3>
+                                <p>BASF • E.ON • Vodafone<br>
+                                <span class="tech-stack">GNNs • RL • Transformers • SQL</span></p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="expertise-column">
+                        <div class="expertise-item">
+                            <i class="fas fa-wrench accent-icon"></i>
+                            <div>
+                                <h3>Deployment Stack</h3>
+                                <p>Production ML Systems<br>
+                                <span class="tech-stack">Docker • FastAPI • Streamlit • MLflow</span></p>
+                            </div>
+                        </div>
+                        
+                        <div class="expertise-item">
+                            <i class="fas fa-trophy accent-icon"></i>
+                            <div>
+                                <h3>Key Achievement</h3>
+                                <p>Optimized Power Grids with MARL<br>
+                                <span class="tech-stack">7% RMSE in Forecasting Models</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="hero-visuals">
+                <div class="profile-container">
+                    <img src="Photo.jpg" alt="Aniket Phutane" class="profile-img">
+                    <div class="experience-badge">
+                        <span class="exp-number">5+</span>
+                        <span class="exp-text">Years in<br>Data Science</span>
+                    </div>
+                </div>
+                
+                <div class="education-badge">
+                    <div class="degree">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <span class="degree-type">M.Sc.</span>
+                            <span class="degree-field">Data Science</span>
+                        </div>
+                    </div>
+                    <div class="university">RWTH Aachen</div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="trust-banner">
+            <p>Trusted by Industry Leaders:</p>
+            <div class="company-grid">
+                <div class="company-item">Helmholtz Zentrum Berlin</div>
+                <div class="company-item">BASF SE</div>
+                <div class="company-item">E.ON Energy</div>
+                <div class="company-item">Vodafone</div>
+                <div class="company-item">Teras Energies</div>
+            </div>
+        </div>
+    </section>
+
+<!-- About Section -->
+<section id="about" class="about">
+    <h2 class="section-title">Professional Journey</h2>
+    <div class="about-container">
+        <!-- Experience Timeline -->
+        <div class="experience-timeline">
+            <!-- Helmholtz Zentrum Berlin -->
+            <div class="experience-item">
+                <i class="fas fa-atom timeline-icon"></i>
+                <div class="experience-content">
+                    <div class="experience-header">
+                        <h3>Data Scientist <span class="company">@ Helmholtz Zentrum Berlin</span></h3>
+                        <div class="experience-meta">
+                            <span class="date">Mar 2024 — Present</span>
+                            <span class="location">Berlin, Germany</span>
+                        </div>
+                    </div>
+                    <ul class="achievement-list">
+                        <li>Developed probabilistic methods for synthetic data generation</li>
+                        <li>Implemented pretraining/finetuning strategies for domain adaptation</li>
+                        <li>Established MLOps pipelines with Docker and Streamlit dashboards</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- BASF -->
+            <div class="experience-item">
+                <i class="fas fa-industry timeline-icon"></i>
+                <div class="experience-content">
+                    <div class="experience-header">
+                        <h3>Data Scientist <span class="company">@ BASF</span></h3>
+                        <div class="experience-meta">
+                            <span class="date">Mar 2022 — Sept 2023</span>
+                            <span class="location">Ludwigshafen, Germany</span>
+                        </div>
+                    </div>
+                    <ul class="achievement-list">
+                        <li>Built predictive models using Graph Neural Networks</li>
+                        <li>Conducted A/B testing and model interpretability with SHAP</li>
+                        <li>Deployed production models via FastAPI</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- E.ON Masterarbeit -->
+            <div class="experience-item">
+                <i class="fas fa-bolt timeline-icon"></i>
+                <div class="experience-content">
+                    <div class="experience-header">
+                        <h3>Master's Thesis <span class="company">@ E.ON</span></h3>
+                        <div class="experience-meta">
+                            <span class="date">Aug 2022 — Oct 2023</span>
+                            <span class="location">Aachen, Germany</span>
+                        </div>
+                    </div>
+                    <ul class="achievement-list">
+                        <li>Designed Multi-agent RL solution for power grid optimization</li>
+                        <li>Optimized training workflows using HPC clusters</li>
+                        <li>Integrated MLflow, DVC, and Docker for MLOps</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- E.ON Research Assistant -->
+            <div class="experience-item">
+                <i class="fas fa-researchgate timeline-icon"></i>
+                <div class="experience-content">
+                    <div class="experience-header">
+                        <h3>Research Assistant <span class="company">@ E.ON Energy Research Center</span></h3>
+                        <div class="experience-meta">
+                            <span class="date">May 2021 — July 2022</span>
+                            <span class="location">Aachen, Germany</span>
+                        </div>
+                    </div>
+                    <ul class="achievement-list">
+                        <li>Managed PostgreSQL databases for energy systems</li>
+                        <li>Developed Transformer models for performance forecasting</li>
+                        <li>Implemented VAE architectures for anomaly detection</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Vodafone -->
+            <div class="experience-item">
+                <i class="fas fa-chart-line timeline-icon"></i>
+                <div class="experience-content">
+                    <div class="experience-header">
+                        <h3>Data Scientist <span class="company">@ Vodafone</span></h3>
+                        <div class="experience-meta">
+                            <span class="date">July 2020 — Dec 2020</span>
+                            <span class="location">Pune, India</span>
+                        </div>
+                    </div>
+                    <ul class="achievement-list">
+                        <li>Analyzed global spending patterns using SQL</li>
+                        <li>Developed interactive process analysis dashboards</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Teras Energies -->
+            <div class="experience-item">
+                <i class="fas fa-chart-area timeline-icon"></i>
+                <div class="experience-content">
+                    <div class="experience-header">
+                        <h3>Data Scientist <span class="company">@ Teras Energies</span></h3>
+                        <div class="experience-meta">
+                            <span class="date">July 2018 — June 2020</span>
+                            <span class="location">Mumbai, India</span>
+                        </div>
+                    </div>
+                    <ul class="achievement-list">
+                        <li>Implemented time series forecasting with statistical methods</li>
+                        <li>Created business intelligence dashboards using Tableau</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education & Quick Facts -->
+        <div class="education-sidebar">
+            <div class="education-card">
+                <h3>Education</h3>
+                <div class="education-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div>
+                        <h4>M.Sc. Data Science</h4>
+                        <p>RWTH Aachen University</p>
+                        <p class="education-date">Completed: Dec 2023</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <i class="fas fa-university"></i>
+                    <div>
+                        <h4>B.E. Computer Engineering</h4>
+                        <p>University of Mumbai</p>
+                        <p class="education-date">Completed: Jun 2018</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="expertise-card">
+                <h3>Core Expertise</h3>
+                <ul class="expertise-list">
+                    <li>Time Series Forecasting</li>
+                    <li>Deep Learning Architectures</li>
+                    <li>MLOps & Model Deployment</li>
+                    <li>Reinforcement Learning</li>
+                    <li>Data Pipeline Design</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section id="skills" class="skills">
+        <h2 class="section-title">Technical & Professional Skills</h2>
+        
+        <div class="skills-grid">
+            <!-- Programming Languages -->
+            <div class="skill-category">
+                <div class="category-header">
+                    <i class="fas fa-code"></i>
+                    <h3>Programming</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">R</span>
+                </div>
+            </div>
+    
+            <!-- Machine Learning & Statistics -->
+            <div class="skill-category">
+                <div class="category-header">
+                    <i class="fas fa-brain"></i>
+                    <h3>ML & Statistics</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Predictive Modeling</span>
+                    <span class="skill-tag">Statistical Analysis</span>
+                    <span class="skill-tag">Time-Series Forecasting</span>
+                </div>
+            </div>
+    
+            <!-- ML Libraries -->
+            <div class="skill-category">
+                <div class="category-header">
+                    <i class="fas fa-cubes"></i>
+                    <h3>ML Libraries</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Scikit-learn</span>
+                    <span class="skill-tag">PyTorch</span>
+                    <span class="skill-tag">TensorFlow</span>
+                    <span class="skill-tag">Keras</span>
+                    <span class="skill-tag">NumPy</span>
+                    <span class="skill-tag">Pandas</span>
+                    <span class="skill-tag">SpaCy</span>
+                    <span class="skill-tag">PySpark</span>
+                </div>
+            </div>
+    
+            <!-- MLOps & Deployment -->
+            <div class="skill-category">
+                <div class="category-header">
+                    <i class="fas fa-rocket"></i>
+                    <h3>MLOps & Deployment</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">MLflow</span>
+                    <span class="skill-tag">A/B Testing</span>
+                    <span class="skill-tag">FastAPI</span>
+                    <span class="skill-tag">Weights & Biases</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">DVC</span>
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">Kubeflow</span>
+                </div>
+            </div>
+    
+            <!-- Databases -->
+            <div class="skill-category">
+                <div class="category-header">
+                    <i class="fas fa-database"></i>
+                    <h3>Databases</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">PostgreSQL</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">MongoDB</span>
+                </div>
+            </div>
+    
+            <!-- Cloud & Infrastructure -->
+            <div class="skill-category">
+                <div class="category-header">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Cloud & Infrastructure</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">AWS</span>
+                    <span class="skill-tag">HPC Clusters</span>
+                </div>
+            </div>
+    
+            <!-- Soft Skills -->
+            <div class="skill-category soft-skills">
+                <div class="category-header">
+                    <i class="fas fa-users"></i>
+                    <h3>Professional Skills</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Clear Communication</span>
+                    <span class="skill-tag">Stakeholder Collaboration</span>
+                    <span class="skill-tag">Critical Thinking</span>
+                    <span class="skill-tag">Strategic Planning</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="projects" class="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        
+        <div class="project-grid">
+            <!-- Stack Overflow Tag Predictor -->
+            <div class="project-card">
+                <h3 class="project-title">Stack Overflow Tag Predictor</h3>
+                <p class="project-description">
+                    Developed an NLP system to automatically suggest relevant tags for programming questions 
+                    posted on Stack Overflow. Processed over 500k questions using text preprocessing and 
+                    feature engineering techniques. Implemented multi-label classification achieving 85% 
+                    accuracy with <strong>TF-IDF</strong> and <strong>XGBoost</strong>.
+                </p>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>NLP</span>
+                    <span>Scikit-learn</span>
+                    <span>SpaCy</span>
+                </div>
+                <a href="https://github.com/anky3733/Stack-Overflow-Tag-Predictor" class="github-link" target="_blank">
+                    <i class="fab fa-github"></i> View on GitHub
+                </a>
+            </div>
+    
+            <!-- Quora Question Similarity -->
+            <div class="project-card">
+                <h3 class="project-title">Quora Question Pair Similarity</h3>
+                <p class="project-description">
+                    Built a semantic similarity detector using advanced NLP techniques to identify duplicate 
+                    questions on Quora. Achieved 92% accuracy with <strong>BERT embeddings</strong> and 
+                    <strong>Siamese Neural Networks</strong>. Reduced redundant content by 40% in test datasets.
+                </p>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>Transformers</span>
+                    <span>PyTorch</span>
+                    <span>TF-IDF</span>
+                </div>
+                <a href="https://github.com/anky3733/Quora-Question-Pair-Similarity" class="github-link" target="_blank">
+                    <i class="fab fa-github"></i> View on GitHub
+                </a>
+            </div>
+    
+            <!-- Netflix Recommendation System -->
+            <div class="project-card">
+                <h3 class="project-title">Netflix Movie Recommendation System</h3>
+                <p class="project-description">
+                    Created a collaborative filtering recommendation engine using Netflix's movie rating dataset. 
+                    Implemented <strong>matrix factorization</strong> and <strong>deep learning</strong> approaches 
+                    that outperformed Cinematch's accuracy by 12%. Processed 100M+ ratings with optimized 
+                    Spark pipelines.
+                </p>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>Spark</span>
+                    <span>Surprise</span>
+                    <span>Keras</span>
+                </div>
+                <a href="https://github.com/anky3733/Netflix-Movie-Recommendation-System" class="github-link" target="_blank">
+                    <i class="fab fa-github"></i> View on GitHub
+                </a>
+            </div>
+    
+            <!-- Machine Translation -->
+            <div class="project-card">
+                <h3 class="project-title">Spanish-English Neural Translation</h3>
+                <p class="project-description">
+                    Developed a sequence-to-sequence model with attention mechanisms for Spanish-to-English 
+                    translation. Achieved <strong>BLEU score</strong> of 32.5 using transformer architecture. 
+                    Implemented beam search decoding and subword tokenization for optimal performance.
+                </p>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>TensorFlow</span>
+                    <span>Transformer</span>
+                    <span>BLEU</span>
+                </div>
+                <a href="https://github.com/anky3733/Machine-Translation-Spanish---English" class="github-link" target="_blank">
+                    <i class="fab fa-github"></i> View on GitHub
+                </a>
+            </div>
+        </div>
+</section>
+
+<!-- Achievements Section -->
+<section id="achievements" class="achievements">
+    <h2 class="section-title">Key Achievements</h2>
+    
+    <div class="achievements-grid">
+        <!-- Patent -->
+        <div class="achievement-card">
+            <i class="fas fa-certificate achievement-icon"></i>
+            <h3>Patent: Biodegradation Prediction with GNNs</h3>
+            <p class="achievement-meta">BASF • 2023</p>
+            <p class="achievement-desc">
+                Developed graph neural network models to predict biodegradation potential of molecules, 
+                enhancing predictive accuracy for sustainable chemical innovation.
+            </p>
+        </div>
+
+        <!-- Publication -->
+        <div class="achievement-card">
+            <i class="fas fa-trophy achievement-icon"></i>
+            <h3>Best Paper Prize: "Get Set Shop"</h3>
+            <p class="achievement-meta">IJCSIT Conference • 2022</p>
+            <p class="achievement-desc">
+                Award-winning paper proposing novel ML framework for e-commerce optimization. 
+                <a href="https://github.com/anky3733/Understanding-Machine-Learning/blob/main/Get%20Set%20Shop%20-%202018%20IJCSIT.pdf" target="_blank" class="achievement-link">View Publication</a>
+            </p>
+        </div>
+
+        <!-- Certifications -->
+        <div class="achievement-card">
+            <i class="fas fa-cloud achievement-icon"></i>
+            <h3>AWS Certified Cloud Practitioner</h3>
+            <p class="achievement-meta">Validation #510ET7Y1ZBB41694</p>
+            <p class="achievement-desc">
+                Certified cloud infrastructure expertise. 
+                <a href="https://aw.certmetrics.com/amazon/public/verification.aspx" target="_blank" class="achievement-link">Verify Credential</a>
+            </p>
+        </div>
+
+        <!-- Academic Excellence -->
+        <div class="achievement-card">
+            <i class="fas fa-medal achievement-icon"></i>
+            <h3>Gold Medalist: Mathematics Olympiad</h3>
+            <p class="achievement-meta">International Level • 2011</p>
+            <p class="achievement-desc">
+                Top 0.1% performance in international mathematics competition with 50,000+ participants.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Technical Blog Section -->
+<section id="blog" class="blog">
+    <h2 class="section-title">Technical Writings</h2>
+    
+    <div class="blog-grid">
+        <!-- RAG Evaluation -->
+        <div class="blog-card">
+            <h3>RAG Evaluation - From Theory to Implementation</h3>
+            <p class="blog-desc">
+                Comprehensive guide to evaluating Retrieval-Augmented Generation systems with practical 
+                implementation strategies and benchmark metrics.
+            </p>
+            <a href="RAG Evaluation - From Theory to Implementation.pdf" class="download-btn" download>
+                <i class="fas fa-file-pdf"></i> Download PDF
+            </a>
+        </div>
+
+        <!-- Multimodal Evaluation -->
+        <div class="blog-card">
+            <h3>Evaluate Multimodal Models - A Comprehensive Guide</h3>
+            <p class="blog-desc">
+                Framework for assessing multimodal AI systems covering cross-modal alignment, 
+                task-specific metrics, and human evaluation techniques.
+            </p>
+            <a href="Evaluate Multimodal Models- A Comprehensive Guide.pdf" class="download-btn" download>
+                <i class="fas fa-file-pdf"></i> Download PDF
+            </a>
+        </div>
+
+        <!-- EM Algorithm -->
+        <div class="blog-card">
+            <h3>Expectation–Maximization Algorithm Demystified</h3>
+            <p class="blog-desc">
+                Mathematical deep-dive into EM algorithm with implementation examples for 
+                Gaussian Mixture Models and latent variable models.
+            </p>
+            <a href="Evaluate Multimodal Models- A Comprehensive Guide.pdf" class="download-btn" download>
+                <i class="fas fa-file-pdf"></i> Download PDF
+            </a>
+        </div>
+
+        <!-- Attention Mechanism -->
+        <div class="blog-card">
+            <h3>Understanding the Attention Block</h3>
+            <p class="blog-desc">
+                Architectural analysis of transformer attention mechanism.
+            </p>
+            <a href="Understanding the Attention Block.pdf" class="download-btn" download>
+                <i class="fas fa-file-pdf"></i> Download PDF
+            </a>
+        </div>
+    </div>
+</section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="6" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+    
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <div class="info-card">
+                    <h3>Direct Contact</h3>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <!-- <span>Email</span> -->
+                            <a href="mailto:your.email@example.com" class="contact-link">
+                                aniketdphutane@example.com
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <!-- <span>LinkedIn</span> -->
+                            <a href="https://linkedin.com/in/aniketdphutane" 
+                               class="contact-link" 
+                               target="_blank">
+                                aniketdphutane
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <!-- <span>GitHub</span> -->
+                            <a href="https://github.com/anky3733" 
+                               class="contact-link" 
+                               target="_blank">
+                                anky3733
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="resume-download">
+                        <i class="fas fa-file-pdf"></i>
+                        <a href="CV.pdf" 
+                           download="CV.pdf" 
+                           class="resume-btn">
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 aniketdphutane. All rights reserved.</p>
+    </footer>
+</body>
+</html>
